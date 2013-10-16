@@ -32,7 +32,8 @@ public class SampleAction implements IWorkbenchWindowActionDelegate {
 		MessageDialog.openInformation(
 			window.getShell(),
 			"Test-pull-requests",
-			"Hello, Eclipse world from the mylyn test repo");
+			"Hello, Eclipse world from the mylyn test repo" +
+			"Creating a new commit on a seperate branch to be merged using pull request");
 	}
 
 	/**
