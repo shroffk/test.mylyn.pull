@@ -32,7 +32,7 @@ public class SampleAction implements IWorkbenchWindowActionDelegate {
 		MessageDialog.openInformation(
 			window.getShell(),
 			"Test-pull-requests",
-			"Hello, Eclipse world");
+			"Hello, Eclipse world from the mylyn test repo");
 	}
 
 	/**
