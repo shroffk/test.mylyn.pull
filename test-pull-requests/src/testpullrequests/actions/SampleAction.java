@@ -33,7 +33,8 @@ public class SampleAction implements IWorkbenchWindowActionDelegate {
 			window.getShell(),
 			"Test-pull-requests",
 			"Hello, Eclipse world from the mylyn test repo" +
-			"Creating a new commit on a seperate branch to be merged using pull request");
+			"Creating a new commit on a seperate branch to be merged using pull request" +
+			"Trying to reolve the pull requests fron the IDE");
 	}
 
 	/**
